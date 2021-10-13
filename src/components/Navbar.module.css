@@ -1,0 +1,63 @@
+.header {
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 80px;
+  text-align: center;
+}
+
+.header ul {
+  list-style-type: none;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.header li {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 25px;
+  padding: 25px 60px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* background: #12c2e9; fallback for old browsers */
+/* background: -webkit-linear-gradient(
+  to right,
+  #f64f59,
+  #c471ed,
+  #12c2e9
+); Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(
+  to right,
+  #f64f59,
+  #c471ed,
+  #12c2e9
+); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* background: #7f00ff; fallback for old browsers */
+/* background: -webkit-linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
