@@ -1,6 +1,8 @@
+import classes from './Extras.module.css'
+
 const Extras = () => {
   return (
-    <div>
+    <div className={classes.title}>
       <h1>EXTRAS</h1>
     </div>
   )

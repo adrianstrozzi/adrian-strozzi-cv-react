@@ -13,9 +13,10 @@ const Navbar = () => {
           alt="profile"
         />
       </div>
+
       <nav>
         <ul>
-          {/* <li>
+          {/* <li>z
             <img
               src={logo}
               alt="profile"

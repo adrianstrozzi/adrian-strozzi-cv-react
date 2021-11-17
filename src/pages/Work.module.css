@@ -1,0 +1,79 @@
+.title {
+  background-color: #151516;
+}
+
+.titlePage h1 {
+  font-size: 30px;
+  padding-top: 10px;
+  /* background: linear-gradient(to right, rgb(203, 0, 243), rgb(255, 8, 160)); */
+  /* background: linear-gradient(to right, #ec2f4b, #009fff); */
+  /* background: linear-gradient(to right, #3f5efb, #fc466b); */
+  background: linear-gradient(to right, #0575e6, #00f260);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleMain {
+  font-size: 25px;
+  background: linear-gradient(to right, #e100ff, #7f00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleSecondary {
+  font-size: 20px;
+  /* background: linear-gradient(to right, #3284ff, #0003ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.textHP p {
+  width: 50%;
+  margin: auto;
+  padding: 0px 20px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.textHP {
+  background-color: rgb(226, 226, 226);
+  /* color: rgb(226, 226, 226);
+  background-color: black; */
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.textHPE {
+  color: rgb(226, 226, 226);
+  background-color: #151516;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.textHPE p {
+  width: 50%;
+  margin: auto;
+  padding: 0px 20px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.textIBM p {
+  width: 50%;
+  margin: auto;
+  padding: 0px 20px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.textIBM {
+  background-color: rgb(226, 226, 226);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

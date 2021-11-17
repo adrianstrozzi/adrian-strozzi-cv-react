@@ -1,0 +1,10 @@
+.title h1 {
+  font-size: 30px;
+  padding-top: 10px;
+  /* background: linear-gradient(to right, rgb(203, 0, 243), rgb(255, 8, 160)); */
+  /* background: linear-gradient(to right, #ec2f4b, #009fff); */
+  /* background: linear-gradient(to right, #3f5efb, #fc466b); */
+  background: linear-gradient(to right, #0575e6, #00f260);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
