@@ -1,21 +1,26 @@
 .profile {
   width: 100%;
+  background-color: #151516;
 }
 
 .profile img {
-  /* width: 100%;
-  height: auto;
-  opacity: 0.8;
-  border-radius: 20px;
-  filter: blur(2px); */
-
-  width: 50%;
+  width: 40%;
   height: 400px;
   object-fit: cover;
   opacity: 0.9;
+  padding-bottom: 10px;
 }
 
-.title h1 {
+.titlePage {
+  background-color: #151516;
+  /* background-color: rgb(226, 226, 226);
+  background-color: white; */
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.titlePage h1 {
   font-size: 30px;
   padding-top: 10px;
   /* background: linear-gradient(to right, rgb(203, 0, 243), rgb(255, 8, 160)); */
@@ -30,66 +35,47 @@
   -webkit-text-fill-color: transparent; */
 }
 
-.textintro {
-  width: 50%;
-  margin: auto;
-  padding: 0px 20px;
-}
-
-.textintro p {
-  font-size: 20px;
-  text-align: justify;
-  line-height: 30px;
-}
-
-.textabout {
-  background-color: rgb(226, 226, 226);
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-
-/* .textabout {
-  width: 60%;
-  margin: auto;
-  padding: 0px 20px;
-} */
-
-.textabout p {
-  width: 50%;
-  margin: auto;
-  padding: 0px 20px;
-  font-size: 20px;
-  text-align: justify;
-  line-height: 30px;
-}
-
-.textabout h1 {
-  font-size: 20px;
+.titleMain {
+  font-size: 25px;
   background: linear-gradient(to right, #e100ff, #7f00ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.textDark {
+  color: rgb(226, 226, 226);
+  background-color: #151516;
+  width: 100%;
+  padding: 20px 0px 10px 0px;
+}
+
+.textDark p {
+  width: 40%;
+  margin: auto;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 35px;
 }
 
 /* iPad Air 4 Viewport */
 
 @media (max-width: 1180px) {
   .profile img {
-    width: 80%;
-    height: 1000px;
+    width: 70%;
+    height: 300px;
     object-fit: cover;
     opacity: 0.9;
   }
 
-  .text p {
-    font-size: 30px;
-    text-align: justify;
-    line-height: 50px;
+  .textDark {
+    padding-top: 20px 0px;
   }
 
-  .text {
-    width: 80%;
-    padding: 0px 20px;
+  .textDark p {
+    width: 70%;
     margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
   }
 }

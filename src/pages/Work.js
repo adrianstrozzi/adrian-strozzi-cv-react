@@ -6,7 +6,7 @@ const Work = () => {
       <div className={classes.titlePage}>
         <h1>WORK EXPERIENCE</h1>
       </div>
-      <div className={classes.textHP}>
+      <div className={classes.textDark}>
         <h1 className={classes.titleMain}>HP INC.</h1>
         <h2>PROGRAM COORDINATOR</h2>
         <p>
@@ -15,9 +15,9 @@ const Work = () => {
           marketing updates, engineering requirements and commercial and public agreements.
         </p>
       </div>
-      <div className={classes.textHPE}>
+      <div className={classes.textDark}>
         <h1 className={classes.titleMain}>HP ENTERPRISE</h1>
-        <h2 className={classes.titleSecondary}>PAYROLL USA TAXES SPECIALIST</h2>
+        <h2 className={classes.titleSecondary}>USA PAYROLL TAXES SPECIALIST</h2>
         <p>
           Role involved research and adjustments to taxes and paychecks of HPE employees.
           Processing of different IRS forms such as W2, W2-C, W4, LOD, Tax Exemption Certificate and FICA Exemption Certificate.
@@ -25,7 +25,7 @@ const Work = () => {
           running reports and queries. Direct support to employees via calls, chat and email.
         </p>
       </div>
-      <div className={classes.textIBM}>
+      <div className={classes.textDark}>
         <h1 className={classes.titleMain}>IBM</h1>
         <h2>ACCOUNTS RECEIVABLE CSR</h2>
         <p>
