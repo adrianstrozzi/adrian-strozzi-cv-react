@@ -1,9 +1,9 @@
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import About from "./pages/About";
+import Home from "./pages/Home";
 import Work from "./pages/Work";
 import Studies from "./pages/Studies";
 import Extras from "./pages/Extras";
@@ -14,7 +14,15 @@ function App() {
     <div>
       <Navbar />
       <Switch>
-        <Route path="/about" component={About} />
+        <Route
+          exact path="/"
+          render={() => {
+            return (
+              <Redirect to="/home" />
+            )
+          }}
+        />
+        <Route path="/home" component={Home} />
         <Route path="/work" component={Work} />
         <Route path="/studies" component={Studies} />
         <Route path="/extras" component={Extras} />

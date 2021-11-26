@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <div className={classes.footer}>
       <p>
-        Made by Adrian Strozzi
+        Made by <a href="https://github.com/adrianstrozzi">Adrian Strozzi </a>
       </p>
       <p>
-        adrianstrozzi@gmail.com
+        adrianstrozzi @gmail.com
       </p>
       <p>
-        Mobile: +52 3332323939
+        Mobile: +52 3332323949
       </p>
     </div>
   )
